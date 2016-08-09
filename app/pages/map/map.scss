@@ -1,3 +1,13 @@
 .map {
 
 }
+
+#map_canvas{
+    height: 100%;
+    width: 100%;
+}
+
+//trick to prevent ionic navigator nav-decor div to cause a black :-moz-full-screen
+ion-app._gmaps_cdv_ .nav-decor{
+    background-color: rgba(0, 0, 0, 0);
+}
