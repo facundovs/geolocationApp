@@ -41,7 +41,9 @@
     {
       "locator": "https://bitbucket.org/nightstomp/cordova-plugin-googlemaps-sdk.git",
       "id": "com.googlemaps.ios"
-    }
+    },
+    "cordova-plugin-geolocation",
+    "cordova-plugin-compat"
   ],
   "cordovaPlatforms": [
     {
